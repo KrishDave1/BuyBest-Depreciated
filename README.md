@@ -26,6 +26,8 @@ Experience the future of online shopping with BuyBest. Our platform is designed 
 
 - **Smart Search**: Our powerful search function allows you to quickly locate products using keywords, categories, and filters, saving you valuable time.
 
+- **Category Filtering**: Easily filter products by category, making it simple to find the items you're interested in.
+
 - **Detailed Product Pages**: Discover in-depth information about each product, including images, descriptions, customer reviews, and related products.
 
 - **Effortless Cart Management**: Add products to your cart, review them, and easily proceed to checkout for a seamless purchasing process.
@@ -34,10 +36,18 @@ Experience the future of online shopping with BuyBest. Our platform is designed 
 
 - **Responsive Design**: Enjoy a consistent shopping experience across devices, whether you're on a computer, tablet, or smartphone.
 
+- **3D Contact Page**: Immerse yourself in an interactive 3D contact page that adds a unique touch to your communication with us.
+
+- **Email Notifications**: Receive an email summary when confirming your payment, providing you with a clear overview of your purchase.
+
+- **Footer Component**: Explore our comprehensive footer section, containing legal information, social media links, and more.
+
+- **Error Page**: Encounter a friendly and informative 404 error page if you navigate to a non-existent route.
+
 ## Technologies Used
 
 - **Frontend**: React, React Router, Framer Motion
-- **3D Graphics**: Three.js, React-Three-Fiber
+- **3D Graphics**: Three.js, React-Three-Fiber, 
 - **State Management**: Context API
 - **Styling**: CSS Modules
 - **Email Notifications**: EmailJS
@@ -67,10 +77,13 @@ Experience the future of online shopping with BuyBest. Our platform is designed 
 
 1. Browse through different categories to discover products.
 2. Utilize the search functionality to find specific items.
-3. View detailed product pages for comprehensive information.
-4. Add products to your cart and proceed to checkout.
-5. Register an account or log in for a personalized experience.
-6. Enjoy a secure, seamless, and enjoyable online shopping experience.
+3. Filter products by categories for a refined shopping experience.
+4. View detailed product pages for comprehensive information.
+5. Add products to your cart and proceed to checkout.
+6. Receive email notifications and order summaries for a seamless shopping journey.
+7. Explore the immersive 3D contact page and easily get in touch with us.
+8. Enjoy the professional and user-friendly footer section.
+9. Encounter a helpful error page if you navigate to an incorrect route.
 
 ## Screenshots
 
@@ -116,6 +129,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Elevate your shopping experience with BuyBest – where convenience and quality meet. 🛍️
-
-
-
