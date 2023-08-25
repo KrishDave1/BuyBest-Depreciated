@@ -2,7 +2,7 @@
 
 Welcome to BuyBest, your ultimate destination for a convenient and enjoyable online shopping experience. Discover a diverse range of products, from cutting-edge electronics to fashionable clothing and exquisite jewelry. With our user-centric design and top-notch features, BuyBest is here to redefine your shopping journey.
 
-![BuyBest Logo](insert_logo_image_url_here)
+![BuyBest Logo](file:///C:/Users/krish/Downloads/Screenshot%202023-08-24%20230834.png)
 
 ## Table of Contents
 
@@ -81,6 +81,30 @@ Experience the future of online shopping with BuyBest. Our platform is designed 
 
 We welcome contributions! If you encounter issues or have suggestions, please create an issue or submit a pull request.
 
+## API Documentation
+
+If you're interested in interacting with our API, refer to the [API documentation](https://fakestoreapi.com/docs) for information on available endpoints, request/response examples, and authentication methods.
+
+## Acknowledgments
+
+We'd like to thank the open-source community for providing invaluable libraries and tools that have made this project possible.
+Certainly! Here's a list of libraries and tools that you can include in the "Acknowledgments" section of your README:
+
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [React Router](https://reactrouter.com/): Declarative routing for React applications.
+- [react-icons](https://react-icons.github.io/react-icons/): A collection of icons for React.
+- [react-three/fiber](https://github.com/pmndrs/react-three-fiber): A React renderer for Three.js.
+- [react-query](https://react-query.tanstack.com/): Data fetching and caching library for React.
+- [react-bootstrap](https://react-bootstrap.github.io/): Bootstrap components built with React.
+- [emailjs](https://www.emailjs.com/): A library for sending emails using JavaScript.
+- [maath/random](https://github.com/maath/rand): A library for generating random numbers and data.
+- [framer-motion](https://www.framer.com/api/motion/): A motion library for animations in React.
+- [react-icons](https://react-icons.github.io/react-icons/): A set of icons for React applications.
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start): DOM bindings for React Router.
+- [useGLTF](https://github.com/pmndrs/drei): A utility for loading and parsing GLTF models.
+- [OrbitControls](https://github.com/pmndrs/drei): A control component for camera orbits in Three.js.
+- [Preload](https://github.com/pmndrs/drei): A component for preloading assets in Three.js applications.
+
 ## Contact
 
 Feel free to reach out to us at contact@buybest.com for inquiries or feedback.
@@ -92,3 +116,6 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Elevate your shopping experience with BuyBest – where convenience and quality meet. 🛍️
+
+
+
