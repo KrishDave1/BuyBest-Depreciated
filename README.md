@@ -4,6 +4,9 @@ Welcome to BuyBest, your ultimate destination for a convenient and enjoyable onl
 
 ![BuyBest Logo](file:///C:/Users/krish/Downloads/Screenshot%202023-08-24%20230834.png)
 
+## Video For Better Understanding
+![Video](file:///C:/Users/krish/OneDrive%20-%20MSFT/Subjects%202nd%20Semester/Web%20Dev/React/BuyBest/20230824_233223.mp4)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
