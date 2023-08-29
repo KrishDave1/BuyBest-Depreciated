@@ -125,7 +125,7 @@ Certainly! Here's a list of libraries and tools that you can include in the "Ack
 
 ## Contact
 
-Feel free to reach out to us at contact@buybest.com for inquiries or feedback.
+Feel free to reach out to us at [contact@buybest.com](https://buybest-1.netlify.app/contact) for inquiries or feedback.
 
 ## License
 
