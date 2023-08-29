@@ -5,9 +5,11 @@ Welcome to BuyBest, your ultimate destination for a convenient and enjoyable onl
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ed6b6ca-58d1-4b6e-9679-af8c82641b59/deploy-status)](https://app.netlify.com/sites/buybest-1/deploys)
 ![BuyBest Logo](file:///C:/Users/krish/Downloads/Screenshot%202023-08-24%20230834.png)
 
+## Website
+[BuyBest Website](https://buybest-1.netlify.app/)
 
 ## Video For Better Understanding
-![Video](file:///C:/Users/krish/OneDrive%20-%20MSFT/Subjects%202nd%20Semester/Web%20Dev/React/BuyBest/20230824_233223.mp4)
+Website 
 
 ## Table of Contents
 
