@@ -3,7 +3,6 @@
 Welcome to BuyBest, your ultimate destination for a convenient and enjoyable online shopping experience. Discover a diverse range of products, from cutting-edge electronics to fashionable clothing and exquisite jewelry. With our user-centric design and top-notch features, BuyBest is here to redefine your shopping journey.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ed6b6ca-58d1-4b6e-9679-af8c82641b59/deploy-status)](https://app.netlify.com/sites/buybest-1/deploys)
-![BuyBest Logo](file:///C:/Users/krish/Downloads/Screenshot%202023-08-24%20230834.png)
 
 ## Website
 [BuyBest Website](https://buybest-1.netlify.app/)
@@ -91,11 +90,6 @@ Experience the future of online shopping with BuyBest. Our platform is designed 
 7. Explore the immersive 3D contact page and easily get in touch with us.
 8. Enjoy the professional and user-friendly footer section.
 9. Encounter a helpful error page if you navigate to an incorrect route.
-
-## Screenshots
-
-![Screenshot 1](insert_screenshot_1_url_here)
-![Screenshot 2](insert_screenshot_2_url_here)
 
 ## Contributing
 
