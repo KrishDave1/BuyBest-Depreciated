@@ -12,6 +12,8 @@ import StarsCanvas from './components/canvas/Stars';
 import Login from './components/Login';
 import Register from './components/Register';
 import Payments from './components/Payments';
+import Profile from './components/Profile';
+import ForgotPassword from './components/ForgotPassword';
 import { useGlobalContext } from './context'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -53,6 +55,17 @@ export default function App() {
           <Route path='/login' element={
             <>
               <Login />
+            </>
+          }>
+          </Route>
+          <Route
+             path='/profile'
+             element={<Profile />}
+          >
+          </Route>
+          <Route path='/forgot-password' element={
+            <>
+              <ForgotPassword />
             </>
           }>
           </Route>
