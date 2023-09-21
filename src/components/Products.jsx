@@ -26,9 +26,14 @@ const Products = () => {
   
   const handleCheckout = (productId) => {
     navigate('/payments');
-    addToCart(productId);
   };
 
+  const handleBuyNow = (productId) => {
+    if (!cartItems[productId]) {
+      addToCart(productId);
+    }
+    handleCheckout(productId);
+  };
 
   return (
     <section className='section-center'>
@@ -42,7 +47,7 @@ const Products = () => {
               <div className='title-text'><h5>{title}</h5></div>
               <div className='mrp-text'><h5>MRP :</h5><h4>$ {price}</h4></div>
               <div className='cart-buy-btn'><button className='cart-btn btn' onClick={() => addToCart(id)}>Add to Cart {cartItemAmount > 0 && <> ({cartItemAmount})</>}</button>
-                <button className='buy-btn btn' onClick={() => handleCheckout(id)}>Buy Now</button>
+                <button className='buy-btn btn' onClick={() => handleBuyNow(id)}>Buy Now</button>
               </div>
             </footer>
           </article>

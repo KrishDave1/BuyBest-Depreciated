@@ -36,7 +36,7 @@ const handlePayment = async (e) => {
   // Send an email using EmailJS
   try {
     await emailjs.send('service_0uqdqle', 'template_ptnbzng', {
-      to_email: 'krishdave011@gmail.com', 
+      to_email: email, 
       products: products
         .filter(product => cartItems[product.id] > 0)
         .map(product => `${product.title} (Quantity: ${cartItems[product.id]})`)
@@ -84,7 +84,7 @@ const handlePayment = async (e) => {
       </div>
       <div className="payments-right">
         <h2>Payment Details</h2>
-        <form className="payment-form">
+        <form className="payment-form" onSubmit = {handlePayment}>
           <div className="address-form">
             <div><label htmlFor="fullName">Full Name:</label>
             <input
@@ -92,6 +92,7 @@ const handlePayment = async (e) => {
               id="fullName"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
+              required
             /></div>
             <div><label htmlFor="email">Email:</label>
             <input
@@ -99,6 +100,7 @@ const handlePayment = async (e) => {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             /></div>
             <div><label htmlFor="mobileNumber">Mobile Number:</label>
             <input
@@ -106,6 +108,7 @@ const handlePayment = async (e) => {
               id="mobileNumber"
               value={mobileNumber}
               onChange={(e) => setMobileNumber(e.target.value)}
+              required
             /></div>
             <div><label htmlFor="zipcode">ZIP code:</label>
             <input
@@ -113,6 +116,7 @@ const handlePayment = async (e) => {
               id="pincode"
               value={pincode}
               onChange={(e) => setPincode(e.target.value)}
+              required
             /></div>
             <div><label htmlFor="address">Address:</label>
             <input
@@ -120,6 +124,7 @@ const handlePayment = async (e) => {
               id="address"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
+              required
             /></div>
             <div><label htmlFor="city">City:</label>
             <input
@@ -127,6 +132,7 @@ const handlePayment = async (e) => {
               id="city"
               value={city}
               onChange={(e) => setCity(e.target.value)}
+              required
             /></div>
             <div><label htmlFor="state">State:</label>
             <select
@@ -141,7 +147,7 @@ const handlePayment = async (e) => {
               ))}
             </select></div>
           </div>
-          <button className="payment-button" onClick={handlePayment}>
+          <button className="payment-button">
             Pay Now
           </button>
         </form>

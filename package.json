@@ -1,5 +1,5 @@
 {
-  "name": "buybest",
+  "name": "trendyfinds",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,16 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "set NODE_ENV=dev&& node App.jsx"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.80.6",
     "@react-three/fiber": "^8.13.7",
     "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
     "emailjs": "^4.0.2",
+    "firebase": "^10.3.0",
     "framer-motion": "^10.16.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0"

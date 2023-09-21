@@ -1,5 +1,7 @@
 import React, { useContext, useEffect, useState } from "react"
 import axios from "axios";
+import { auth } from "./firebase";
+
 
 const AppContext = React.createContext()
 
@@ -15,6 +17,21 @@ const AppProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState('')
   const [showModal, setShowModal] = useState(false)
   const [selectedProduct, setSelectedProduct] = useState(null)
+  const [loadings, setLoadings] = useState(true);
+  const [currentUser, setCurrentUser] = useState('');
+
+  function signup(email, password) {
+    const user = auth.createUserWithEmailAndPassword(email, password);
+    return user;
+  }
+
+  function login(email, password) {
+    return auth.signInWithEmailAndPassword(email, password);
+  }
+
+  function resetPassword(email) {
+    return auth.sendPasswordResetEmail(email);
+  }
 
   const getDefaultCart = () => {
     let cart = {}
@@ -76,6 +93,15 @@ const AppProvider = ({ children }) => {
   const updateCartItemCount = (newAmount, id) => {
     setCartItems((prev) => ({ ...prev, [id]: newAmount }))
   }
+  
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      setCurrentUser(user);
+      setLoadings(false);
+    });
+    
+    return unsubscribe;
+  }, []);
 
   useEffect(() => {
     fetchProducts(allProducts)
@@ -86,7 +112,7 @@ const AppProvider = ({ children }) => {
   // }, [cartItems])
 
   return (
-    <AppContext.Provider value={{ loading, products, categoriesProducts, setCategoriesProducts, searchTerm, setSearchTerm, showModal, selectProduct, selectedProduct, closeModal, cartItems, setCartItems,addToCart, removeFromCart, updateCartItemCount }}>{children}</AppContext.Provider>
+    <AppContext.Provider value={{ loading, products, categoriesProducts, setCategoriesProducts, searchTerm, setSearchTerm, showModal, selectProduct, selectedProduct, closeModal, cartItems, setCartItems,addToCart, removeFromCart, updateCartItemCount,signup,currentUser,setCurrentUser, login,resetPassword }}>{children}</AppContext.Provider>
   )
 }
 
