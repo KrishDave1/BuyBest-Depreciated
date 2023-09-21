@@ -102,7 +102,6 @@ If you're interested in interacting with our API, refer to the [API documentatio
 ## Acknowledgments
 
 We'd like to thank the open-source community for providing invaluable libraries and tools that have made this project possible.
-Certainly! Here's a list of libraries and tools that you can include in the "Acknowledgments" section of your README:
 
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [React Router](https://reactrouter.com/): Declarative routing for React applications.
